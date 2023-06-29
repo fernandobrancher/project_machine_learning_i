@@ -8,13 +8,16 @@ UPDATE: OK (Fernando)
     - pairplot - OK
     - correlação - OK
     - describe - OK
+    - pairplot
 
 UPDATE: Modelo de Regressão linear feito (Diego)
+UPDATE: Modelo de Decision Tree e Random Forest (sem teste de parâmetros) (Mayara)
 
 4. Preprocessamento (ColumnTransformer)
-    - Encode de dados categóricos em dados numéricos
+    - Encode de dados categóricos em dados numéricos (sem necessidade)
     - Escalonamento das variáveis numéricas (após o fit)
-5. Pipeline 
+5. Pipeline
+UPDATE
 5. KFold
 6. Crossvalidate (gridsearchCV)
 
