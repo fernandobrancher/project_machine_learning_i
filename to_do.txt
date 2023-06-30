@@ -16,16 +16,19 @@ UPDATE: Modelo de Decision Tree e Random Forest (sem teste de parâmetros) (Maya
 4. Preprocessamento (ColumnTransformer)
     - Encode de dados categóricos em dados numéricos (sem necessidade)
     - Escalonamento das variáveis numéricas (após o fit)
+        - Fiz um teste fazendo o scaling apenas pra loudness e tempo, que tem uma variação maior, (e não para todas colunas como estava),
+           mas não pareceu influenciar no modelo deixar o scaler pra todas (como o dataset não é tão imenso acabei deixando como estava).
 5. Pipeline
 
 5. KFold
 
-6. Crossvalidate (gridsearchCV)
+6. Crossvalidate (gridsearchCV) 
 
 7. Rodar o modelo com os melhores parâmetros
     - Testar pelo menos 2 tipos de modelos (regressão linear e random forest)
 
 8. print de 1 ou algumas métricas (R2, MAE, MSE - OK)
+    - Fiz o print e breve análise com curvas de aprendizagem, mas importante rodar novamente após definir os melhores parametros com o GridSearch (Fernando)
 
 9. Storytelling, textos descritivos dos resultados encontrados, conclusões.
 
